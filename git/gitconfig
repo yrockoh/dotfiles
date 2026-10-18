@@ -1,0 +1,7 @@
+[credential]
+	helper = store
+
+# user.name / user.email 등 머신별·개인 설정은 ~/.gitconfig.local 에 보관 (repo에 커밋되지 않음)
+# 맨 아래에 두어 .local 값이 위 설정을 덮어쓰도록 함
+[include]
+	path = ~/.gitconfig.local

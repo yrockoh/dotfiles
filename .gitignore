@@ -1,0 +1,16 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*~
+
+# Local overrides: 머신별·개인 설정 (~/.zshrc.local, ~/.tmux.conf.local, ~/.gitconfig.local 등)
+*.local
+.git-credentials
+
+# Dotfiles we want tracked (override global ignore for dotfiles if any)
+!tmux/.tmux.conf
+!zsh/.zshrc
